@@ -15,6 +15,10 @@
 		DF9A3C682473060D00683C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */; };
 		DF9A3C732473060D00683C1A /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C722473060D00683C1A /* SolarTests.swift */; };
 		DF9A3C7E2473060D00683C1A /* SolarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C7D2473060D00683C1A /* SolarUITests.swift */; };
+		DF9A3C8F2473126700683C1A /* UITextField+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8B2473126600683C1A /* UITextField+RoundedCorners.swift */; };
+		DF9A3C902473126700683C1A /* UIStackView+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */; };
+		DF9A3C912473126700683C1A /* UIButton+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */; };
+		DF9A3C922473126700683C1A /* UIImage+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		DF9A3C792473060D00683C1A /* SolarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9A3C7D2473060D00683C1A /* SolarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarUITests.swift; sourceTree = "<group>"; };
 		DF9A3C7F2473060D00683C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9A3C8B2473126600683C1A /* UITextField+RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+RoundedCorners.swift"; sourceTree = "<group>"; };
+		DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+BackgroundColor.swift"; sourceTree = "<group>"; };
+		DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+RoundedCorners.swift"; sourceTree = "<group>"; };
+		DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RoundedCorners.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 				DF9A3C5F2473060600683C1A /* ViewController.swift */,
 				DF9A3C612473060600683C1A /* Main.storyboard */,
 				DF9A3C642473060D00683C1A /* Assets.xcassets */,
+				DF9A3C932473126D00683C1A /* Extensions */,
 				DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */,
 				DF9A3C692473060D00683C1A /* Info.plist */,
 			);
@@ -126,6 +135,17 @@
 				DF9A3C7F2473060D00683C1A /* Info.plist */,
 			);
 			path = SolarUITests;
+			sourceTree = "<group>";
+		};
+		DF9A3C932473126D00683C1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */,
+				DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */,
+				DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */,
+				DF9A3C8B2473126600683C1A /* UITextField+RoundedCorners.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9A3C912473126700683C1A /* UIButton+RoundedCorners.swift in Sources */,
+				DF9A3C8F2473126700683C1A /* UITextField+RoundedCorners.swift in Sources */,
 				DF9A3C602473060600683C1A /* ViewController.swift in Sources */,
 				DF9A3C5C2473060600683C1A /* AppDelegate.swift in Sources */,
+				DF9A3C902473126700683C1A /* UIStackView+BackgroundColor.swift in Sources */,
 				DF9A3C5E2473060600683C1A /* SceneDelegate.swift in Sources */,
+				DF9A3C922473126700683C1A /* UIImage+RoundedCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
