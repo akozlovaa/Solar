@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Registration-->
+        <!--Sign up-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Registration" id="BYZ-38-t0r" customClass="ViewController" customModule="Solar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sign up" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="Solar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
                                                     <constraint firstAttribute="height" constant="42" id="jQK-zt-iSZ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="5"/>
@@ -92,6 +92,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
+                                                    <action selector="createAccountButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1VR-AV-XxM"/>
                                                     <segue destination="5i1-Vn-lpR" kind="presentation" modalPresentationStyle="fullScreen" id="Q65-SX-KSV"/>
                                                 </connections>
                                             </button>
@@ -119,6 +120,9 @@
                                                         <color key="value" red="0.98548799750000005" green="0.78432381149999997" blue="0.38406723739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="logInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qY6-C2-yPS"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -138,6 +142,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="createAccountButtonOutlet" destination="wxR-4X-sMi" id="3bQ-CI-lxw"/>
+                        <outlet property="emailTextField" destination="bwc-Mf-gGp" id="WUD-jP-zfA"/>
+                        <outlet property="passwordTextField" destination="zrw-Jl-foZ" id="a6E-Or-gKK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,7 +155,7 @@
         <!--Account-->
         <scene sceneID="Nhc-Cf-Fcs">
             <objects>
-                <viewController id="xZB-9G-E9r" sceneMemberID="viewController">
+                <viewController id="xZB-9G-E9r" customClass="AccountViewController" customModule="Solar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w4I-zS-GAi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,7 +299,7 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="422" height="42"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                         <state key="normal" title="Log out">
-                                                                            <color key="titleColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                         </state>
                                                                     </button>
                                                                 </subviews>
@@ -382,7 +391,7 @@
         <!--Rooms-->
         <scene sceneID="Vbu-n0-DY6">
             <objects>
-                <viewController title="Rooms" id="wyz-55-XCx" sceneMemberID="viewController">
+                <viewController title="Rooms" id="wyz-55-XCx" customClass="RoomsViewController" customModule="Solar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQe-gk-i5K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -770,7 +779,7 @@
         <!--Room-->
         <scene sceneID="yXE-XY-tUu">
             <objects>
-                <viewController title="Room" id="I8b-VM-hix" sceneMemberID="viewController">
+                <viewController title="Room" id="I8b-VM-hix" customClass="SingleRoomViewController" customModule="Solar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WAA-EL-Bwi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -911,7 +920,7 @@
         <!--Enter Pin-->
         <scene sceneID="adz-wo-t4K">
             <objects>
-                <viewController id="5i1-Vn-lpR" sceneMemberID="viewController">
+                <viewController id="5i1-Vn-lpR" customClass="PinCodeViewController" customModule="Solar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N7p-d0-ZfL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

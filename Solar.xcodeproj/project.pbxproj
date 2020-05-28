@@ -151,8 +151,8 @@
 		DF9A3C932473126D00683C1A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */,
 				DFAB4E292480104200D2FF3C /* PinCodeView.swift */,
+				DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */,
 				DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */,
 				DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */,
 				DF9A3C8B2473126600683C1A /* UITextField+RoundedCorners.swift */,
@@ -163,9 +163,9 @@
 		DFAB4E2524800FC200D2FF3C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */,
 				DF9A3C612473060600683C1A /* Main.storyboard */,
 				DFAB4E2724800FFE00D2FF3C /* PinCodeView.xib */,
+				DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
