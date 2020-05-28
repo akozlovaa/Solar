@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF9A3C5C2473060600683C1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C5B2473060600683C1A /* AppDelegate.swift */; };
 		DF9A3C5E2473060600683C1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C5D2473060600683C1A /* SceneDelegate.swift */; };
-		DF9A3C602473060600683C1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C5F2473060600683C1A /* ViewController.swift */; };
+		DF9A3C602473060600683C1A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C5F2473060600683C1A /* SignUpViewController.swift */; };
 		DF9A3C632473060600683C1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9A3C612473060600683C1A /* Main.storyboard */; };
 		DF9A3C652473060D00683C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9A3C642473060D00683C1A /* Assets.xcassets */; };
 		DF9A3C682473060D00683C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */; };
@@ -19,6 +19,12 @@
 		DF9A3C902473126700683C1A /* UIStackView+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */; };
 		DF9A3C912473126700683C1A /* UIButton+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */; };
 		DF9A3C922473126700683C1A /* UIImage+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */; };
+		DFAB4E2824800FFE00D2FF3C /* PinCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAB4E2724800FFE00D2FF3C /* PinCodeView.xib */; };
+		DFAB4E2A2480104200D2FF3C /* PinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB4E292480104200D2FF3C /* PinCodeView.swift */; };
+		DFAB4E2C2480161B00D2FF3C /* PinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB4E2B2480161B00D2FF3C /* PinCodeViewController.swift */; };
+		DFAB4E2E2480164A00D2FF3C /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB4E2D2480164A00D2FF3C /* RoomsViewController.swift */; };
+		DFAB4E302480165C00D2FF3C /* SingleRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB4E2F2480165C00D2FF3C /* SingleRoomViewController.swift */; };
+		DFAB4E322480166D00D2FF3C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB4E312480166D00D2FF3C /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,7 @@
 		DF9A3C582473060600683C1A /* Solar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9A3C5B2473060600683C1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF9A3C5D2473060600683C1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF9A3C5F2473060600683C1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF9A3C5F2473060600683C1A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DF9A3C622473060600683C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF9A3C642473060D00683C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9A3C672473060D00683C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +63,12 @@
 		DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+BackgroundColor.swift"; sourceTree = "<group>"; };
 		DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+RoundedCorners.swift"; sourceTree = "<group>"; };
 		DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RoundedCorners.swift"; sourceTree = "<group>"; };
+		DFAB4E2724800FFE00D2FF3C /* PinCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PinCodeView.xib; path = Solar/PinCodeView.xib; sourceTree = SOURCE_ROOT; };
+		DFAB4E292480104200D2FF3C /* PinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeView.swift; sourceTree = "<group>"; };
+		DFAB4E2B2480161B00D2FF3C /* PinCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeViewController.swift; sourceTree = "<group>"; };
+		DFAB4E2D2480164A00D2FF3C /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		DFAB4E2F2480165C00D2FF3C /* SingleRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoomViewController.swift; sourceTree = "<group>"; };
+		DFAB4E312480166D00D2FF3C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +119,13 @@
 		DF9A3C5A2473060600683C1A /* Solar */ = {
 			isa = PBXGroup;
 			children = (
+				DFAB4E2624800FE800D2FF3C /* Controller */,
+				DFAB4E2524800FC200D2FF3C /* View */,
+				DF9A3C932473126D00683C1A /* Extensions */,
+				DF9A3C692473060D00683C1A /* Info.plist */,
+				DF9A3C642473060D00683C1A /* Assets.xcassets */,
 				DF9A3C5B2473060600683C1A /* AppDelegate.swift */,
 				DF9A3C5D2473060600683C1A /* SceneDelegate.swift */,
-				DF9A3C5F2473060600683C1A /* ViewController.swift */,
-				DF9A3C612473060600683C1A /* Main.storyboard */,
-				DF9A3C642473060D00683C1A /* Assets.xcassets */,
-				DF9A3C932473126D00683C1A /* Extensions */,
-				DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */,
-				DF9A3C692473060D00683C1A /* Info.plist */,
 			);
 			path = Solar;
 			sourceTree = "<group>";
@@ -141,11 +152,34 @@
 			isa = PBXGroup;
 			children = (
 				DF9A3C8D2473126600683C1A /* UIButton+RoundedCorners.swift */,
+				DFAB4E292480104200D2FF3C /* PinCodeView.swift */,
 				DF9A3C8E2473126600683C1A /* UIImage+RoundedCorners.swift */,
 				DF9A3C8C2473126600683C1A /* UIStackView+BackgroundColor.swift */,
 				DF9A3C8B2473126600683C1A /* UITextField+RoundedCorners.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFAB4E2524800FC200D2FF3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF9A3C662473060D00683C1A /* LaunchScreen.storyboard */,
+				DF9A3C612473060600683C1A /* Main.storyboard */,
+				DFAB4E2724800FFE00D2FF3C /* PinCodeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFAB4E2624800FE800D2FF3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF9A3C5F2473060600683C1A /* SignUpViewController.swift */,
+				DFAB4E2B2480161B00D2FF3C /* PinCodeViewController.swift */,
+				DFAB4E2D2480164A00D2FF3C /* RoomsViewController.swift */,
+				DFAB4E2F2480165C00D2FF3C /* SingleRoomViewController.swift */,
+				DFAB4E312480166D00D2FF3C /* AccountViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF9A3C682473060D00683C1A /* LaunchScreen.storyboard in Resources */,
+				DFAB4E2824800FFE00D2FF3C /* PinCodeView.xib in Resources */,
 				DF9A3C652473060D00683C1A /* Assets.xcassets in Resources */,
 				DF9A3C632473060600683C1A /* Main.storyboard in Resources */,
 			);
@@ -281,9 +316,14 @@
 			files = (
 				DF9A3C912473126700683C1A /* UIButton+RoundedCorners.swift in Sources */,
 				DF9A3C8F2473126700683C1A /* UITextField+RoundedCorners.swift in Sources */,
-				DF9A3C602473060600683C1A /* ViewController.swift in Sources */,
+				DFAB4E322480166D00D2FF3C /* AccountViewController.swift in Sources */,
+				DFAB4E2A2480104200D2FF3C /* PinCodeView.swift in Sources */,
+				DF9A3C602473060600683C1A /* SignUpViewController.swift in Sources */,
+				DFAB4E302480165C00D2FF3C /* SingleRoomViewController.swift in Sources */,
 				DF9A3C5C2473060600683C1A /* AppDelegate.swift in Sources */,
 				DF9A3C902473126700683C1A /* UIStackView+BackgroundColor.swift in Sources */,
+				DFAB4E2C2480161B00D2FF3C /* PinCodeViewController.swift in Sources */,
+				DFAB4E2E2480164A00D2FF3C /* RoomsViewController.swift in Sources */,
 				DF9A3C5E2473060600683C1A /* SceneDelegate.swift in Sources */,
 				DF9A3C922473126700683C1A /* UIImage+RoundedCorners.swift in Sources */,
 			);
